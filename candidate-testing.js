@@ -41,7 +41,6 @@ for (i = 0; i < questions.length; i++) {
   candidateAnswers.push(input.question(questions[i]))
 }
 }
-console.log(candidateAnswers)
 function gradeQuiz(candidateAnswers) {
 
   // TODO 1.2c: Let the candidate know if they have answered the question correctly or incorrectly // 
